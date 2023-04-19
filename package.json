@@ -1,0 +1,20 @@
+{
+  "name": "zachs-employee-tracker",
+  "version": "1.0.0",
+  "description": "This application allows you to view, manage and edit your employee database. keep track of the people that work for you, their salary, title, and department they work in.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Zach Hanson",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.2.3"
+  },
+  "devDependencies": {}
+}

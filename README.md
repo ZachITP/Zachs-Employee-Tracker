@@ -46,7 +46,7 @@ This application makes it easy to manage your office staff.
 
 ## Video Walkthrough
 
-This text is a filler for the walkthrough video.
+<img src="./Assets/employeeTracker.gif" alt= "Demo Video" title="Demo Video">
 
 ## Technologies Used
 

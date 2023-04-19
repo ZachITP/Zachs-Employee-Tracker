@@ -1,27 +1,6 @@
-const express = require("express");
 const inquirer = require("inquirer");
-const mysql = require("mysql2/promise");
 const db = require("./db/connection");
-const cTable = require("console.table");
 require("dotenv").config();
-
-const PORT = process.env.PORT || 3000;
-const app = express();
-
-// Express middleware
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
-
-// Default response for any other request (404 Not Found)
-app.use((req, res) => {
-  res.status(404).end();
-});
-
-// Start server after DB connection
-db.connect((err) => {
-  if (err) throw err;
-  app.listen(PORT, () => {});
-});
 
 // Start the prompt functions
 function runprompt() {
@@ -111,6 +90,7 @@ function seeAllRoles() {
 
 // See all employees
 function seeAllEmployees() {
+  //all the options you have with the employee
   const sql = `SELECT employee.id,
                 employee.first_name,
                 employee.last_name,
@@ -445,3 +425,5 @@ function deleteEmployee() {
       );
     });
 }
+
+runprompt();

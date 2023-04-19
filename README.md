@@ -40,9 +40,9 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 This application makes it easy to manage your office staff.
 
-<img src="./public/assets/pictures/ " alt="" title="">
-<img src="./public/assets/pictures/ " alt="" title="">
-<img src="./public/assets/pictures/ " alt="" title="">
+<img src="./Assets/Roles.png" alt="Roles" title="Roles">
+<img src="./Assets/Department.png" alt="Department" title="Department">
+<img src="./Assets/Employees.png" alt="Employees" title="Employees">
 
 ## Video Walkthrough
 
